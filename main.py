@@ -1,6 +1,6 @@
 import feladatok
 feladatok.elso_feladat()
 feladatok.masodik()
-i=""
-feladatok.harmadik(i,333)
+i="fgfgfgfg"
+feladatok.harmadik(i,5)
 feladatok.negyedik()

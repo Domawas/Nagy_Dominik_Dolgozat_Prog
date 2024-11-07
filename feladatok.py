@@ -30,7 +30,7 @@ def harmadik(text,n):
     text=text.upper()
     if (len(text))<n:
         print(f"Nincs {n}. karakter")
-    print(text[{n}]*3)
+    print(text[n]*3)
 
 
 
@@ -41,12 +41,10 @@ def negyedik():
     nev = input("Adj meg egy nevet (vagy @ a kilépéshez): ")
     while nev != '@':
         nev = input("Adj meg egy nevet (vagy @ a kilépéshez): ")
-        if nev=='@':
-            print(f"A felhasználó {i} nevet adott meg.")
-            return nevek
 
         i += 1
         nevek.append(nev)
+    print(f"A felhasználó {i} nevet adott meg.")
         
 
 
